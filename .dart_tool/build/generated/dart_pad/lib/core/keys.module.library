@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["dart_pad|lib/src/util.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","html"],"hasMain":false}

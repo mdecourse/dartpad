@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["dart_pad|lib/util/logging.dart","html_unescape|lib/html_unescape.dart","logging|lib/logging.dart","dart_pad|lib/experimental/inject_parser.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["html"],"hasMain":true}

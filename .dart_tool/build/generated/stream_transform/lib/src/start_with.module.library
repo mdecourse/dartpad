@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["stream_transform|lib/src/followed_by.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

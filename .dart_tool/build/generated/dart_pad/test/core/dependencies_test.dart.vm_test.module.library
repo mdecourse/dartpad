@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["test|lib/bootstrap/vm.dart","dart_pad|test/core/dependencies_test.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["isolate"],"hasMain":true}

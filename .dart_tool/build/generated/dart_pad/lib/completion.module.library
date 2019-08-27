@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["dart_pad|lib/editing/editor.dart","dart_pad|lib/services/dartservices.dart","dart_pad|lib/src/util.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","convert"],"hasMain":false}

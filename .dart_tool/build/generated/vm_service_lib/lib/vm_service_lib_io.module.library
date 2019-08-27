@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["vm_service_lib|lib/vm_service_lib.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","io"],"hasMain":false}

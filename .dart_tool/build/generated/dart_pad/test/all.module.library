@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["dart_pad|test/core/dependencies_test.dart","dart_pad|test/elements/bind_test.dart","dart_pad|test/services/common_test.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":true}

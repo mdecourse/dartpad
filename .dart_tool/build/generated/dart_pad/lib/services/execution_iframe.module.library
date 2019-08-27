@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["dart_pad|lib/services/execution.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","html","js"],"hasMain":false}

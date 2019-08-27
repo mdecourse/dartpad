@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["dart_pad|lib/experimental/inject_parser.dart","test|lib/test.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":true}

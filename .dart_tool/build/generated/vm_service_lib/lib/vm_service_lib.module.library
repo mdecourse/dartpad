@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["vm_service_lib|lib/src/service_extension_registry.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","convert","typed_data"],"hasMain":false}

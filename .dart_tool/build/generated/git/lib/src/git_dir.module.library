@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["path|lib/path.dart","git|lib/src/bot.dart","git|lib/src/branch_reference.dart","git|lib/src/commit.dart","git|lib/src/commit_reference.dart","git|lib/src/git_error.dart","git|lib/src/tag.dart","git|lib/src/top_level.dart","git|lib/src/tree_entry.dart","git|lib/src/util.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","io"],"hasMain":false}

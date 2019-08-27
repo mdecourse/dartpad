@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["dart_pad|lib/elements/bind.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","html","math"],"hasMain":false}

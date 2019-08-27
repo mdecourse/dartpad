@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["git|lib/src/branch_reference.dart","git|lib/src/commit.dart","git|lib/src/commit_reference.dart","git|lib/src/git_dir.dart","git|lib/src/git_error.dart","git|lib/src/tag.dart","git|lib/src/top_level.dart","git|lib/src/tree_entry.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

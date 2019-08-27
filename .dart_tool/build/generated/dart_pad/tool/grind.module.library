@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["git|lib/git.dart","grinder|lib/grinder.dart","yaml|lib/yaml.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["convert","io"],"hasMain":true}

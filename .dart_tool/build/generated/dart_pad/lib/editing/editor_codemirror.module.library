@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["codemirror|lib/codemirror.dart","codemirror|lib/hints.dart","dart_pad|lib/editing/editor.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","convert","html","js","math"],"hasMain":false}

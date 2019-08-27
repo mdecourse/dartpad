@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["git|lib/src/branch_reference.dart","git|lib/src/util.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["convert"],"hasMain":false}

@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["stream_transform|lib/src/chain_transformers.dart","stream_transform|lib/src/map.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

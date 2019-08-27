@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["dart_pad|lib/context.dart","dart_pad|lib/dart_pad.dart","dart_pad|lib/editing/editor.dart","dart_pad|lib/services/common.dart","dart_pad|lib/services/dartservices.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["convert","html","math"],"hasMain":false}

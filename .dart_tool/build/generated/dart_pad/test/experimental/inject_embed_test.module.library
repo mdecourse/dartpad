@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["test|lib/test.dart","dart_pad|lib/experimental/inject_embed.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["html"],"hasMain":true}

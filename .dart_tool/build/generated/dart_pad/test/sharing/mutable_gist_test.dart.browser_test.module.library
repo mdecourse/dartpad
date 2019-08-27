@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["test|lib/bootstrap/browser.dart","dart_pad|test/sharing/mutable_gist_test.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":true}

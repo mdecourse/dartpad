@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["git|lib/src/bot.dart","git|lib/src/top_level.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}
