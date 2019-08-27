@@ -1,0 +1,365 @@
+// Copyright (c) 2019, the Dart project authors.  Please see the AUTHORS file
+// for details. All rights reserved. Use of this source code is governed by a
+// BSD-style license that can be found in the LICENSE file.
+
+@import "package:mdc_web/material-components-web";
+@import 'package:dart_pad/experimental/scss/colors';
+@import 'package:dart_pad/experimental/scss/variables';
+
+body {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+
+.medium-octicon {
+  font-size: 19px;
+}
+
+// Tab Navigation
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap-reverse;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  > * {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+}
+
+.tabnav-tab {
+  line-height: 18px;
+}
+
+.tabnav-tab:focus {
+  outline: 0;
+  justify-self: end;
+}
+
+// Code Editor
+
+#user-code-editor, #solution-editor, #test-editor, #html-editor, #solution-editor {
+  flex: 1;
+  width: 100%;
+}
+
+.CodeMirror-hints {
+  max-height: 11em;
+}
+
+// Console
+
+#console-view {
+  font-family: $editor-font;
+  font-size: $editor-font-size;
+  overflow-y: auto;
+  height: 100%;
+  white-space: pre-wrap;
+  display: flex;
+  flex-direction: column;
+}
+
+// Flashes
+
+#flash-container > div + div {
+  // Adds space between the flashes in the flash container, if more than one is displayed.
+  margin-top: 8px;
+}
+
+#issues-container > div + div {
+  margin-top: 8px;
+}
+
+.flash {
+  border-radius: 0;
+  border: none;
+  padding: 12px;
+}
+
+.flash-close {
+  padding: 6px;
+  margin: -12px;
+}
+
+#flash-container {
+  width: 380px;
+  z-index: 10;
+}
+
+#issues-container {
+  width: 380px;
+}
+
+.message-container {
+  padding-right: 22px;
+  max-height: 120px;
+  overflow-y: auto;
+  font-family: Roboto Light, sans-serif;
+  font-weight: 300;
+  a {
+    font-weight: bold;
+  }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 9px;
+  height: 9px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: $scrollbar-color;
+}
+
+.message-container div+div {
+  padding-top: 8px;
+}
+
+// Code annotations
+
+.squiggle-error {
+  border-bottom: 2px solid $squiggle-error-color;
+}
+
+.squiggle-warning {
+  border-bottom: 2px solid $squiggle-warning-color;
+}
+
+.squiggle-info {
+  border-bottom: 2px solid $squiggle-info-color;
+}
+
+// Styling specifically for CodeMirror editor
+
+.CodeMirror {
+  height: 100%;
+  font-family: $editor-font;
+  font-size: $editor-font-size;
+}
+
+// Web output
+
+#frame {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+.no-overflow {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+// Splitter
+
+.gutter {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.gutter.gutter-horizontal {
+  background-repeat: repeat-y;
+  cursor: col-resize;
+  height: 100%;
+}
+
+.gutter.gutter-vertical {
+  background-repeat: repeat-x;
+  cursor: row-resize;
+  width: 100%;
+}
+
+// Console Output Footer
+
+.console-output-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#console-output-footer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+  padding-bottom: 8px;
+}
+
+#console-expand-button {
+  color: $label-color;
+  padding: 8px;
+  margin: -4px;
+}
+
+#console-expand-button:focus {
+  outline: none;
+}
+
+#console-output-container {
+  margin: 8px;
+  flex: 1;
+  overflow: auto;
+  font-family: $editor-font;
+  font-size: $editor-font-size;
+}
+
+// HTML Mode
+#editor-and-console-container {
+  display: flex;
+  flex-direction: column;
+  overflow-x: scroll;
+}
+
+#editor-container {
+  flex: 1;
+  overflow: hidden;
+}
+
+#tab-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+// Footer
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 4px 12px 4px 12px;
+  height: 40px;
+}
+
+#issues-message {
+  font-family: $editor-font;
+  font-size: $editor-font-size;
+  cursor: default;
+  margin-right: 12px;
+}
+
+#issues-toggle {
+  cursor: pointer;
+
+  // Prevent the layout from changing when toggling between show and hide
+  width: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// Issues
+#issues {
+  padding: 8px;
+  overflow-y: auto;
+  max-height: 50vh;
+}
+
+#issues .issue {
+  display: flex;
+  flex-direction: row;
+  line-height: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.issue + .issue {
+  margin-top: 4px;
+}
+
+.issue .issuelabel {
+  font-family: $editor-font;
+  font-size: $editor-font-size;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 2px 5px;
+  min-width: 53px;
+}
+
+.issue .issuelabel.error {
+  color: $issue-error-color;
+  border: 1px solid $issue-error-color;
+}
+
+.issue .issuelabel.warning {
+  color: $issue-warning-color;
+  border: 1px solid $issue-warning-color;
+}
+
+.issue .issuelabel.info {
+  color: $issue-info-color;
+  border: 1px solid $issue-info-color;
+}
+
+.issue .message {
+  padding-left: 5px;
+  line-height: 20px;
+}
+
+// Primer
+.Popover-message {
+  padding: 8px !important;
+}
+
+// Material Design
+#progress-bar {
+  position: absolute;
+}
+
+#menu-button {
+  color: $secondary-color;
+}
+
+#main-menu {
+  width: 192px;
+}
+
+.mdc-tab__content {
+  text-transform: none !important;
+}
+
+.mdc-tab--active {
+  .mdc-tab__text-label {
+    font-weight: normal;
+  }
+}
+
+.mdc-button {
+  text-transform: none !important;
+}
+
+// Misc
+
+.view-label {
+  font-family: $editor-font;
+  font-size: $editor-font-size;
+  color: $label-color;
+  margin-left: 8px;
+}
+
+.hide {
+  opacity: 0;
+}
